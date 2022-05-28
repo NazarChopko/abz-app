@@ -1,0 +1,85 @@
+.container{
+        width: 1024px;
+        height: 60px;
+        background: #FFFFFF;
+
+    @media screen and(max-width:1024px){
+        width: 768px;
+        height: 60px;
+        background: #FFFFFF;
+    }
+
+    @media screen and(max-width:768px){
+        width: 360px;
+        height: 60px;
+        background: #FFFFFF;
+    }
+    
+
+    .header{
+        display:flex;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        
+
+        .logo{
+            width: 104px;
+            height: 26px;
+            margin:17px 60px 17px ;
+
+            @media screen and(max-width:1024px){
+                margin-top: 17px;
+                margin-left: 32px;
+            }
+            
+            
+            @media screen and(max-width:768px){
+                margin-top: 16px;
+                margin-left: 17px;
+            }
+            
+            
+        }
+
+        .buttonsGroup{
+            width:210px;
+            height:34px;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 0px;
+            gap: 10px;
+            position: absolute;
+            left: 73.63%;
+            right: 5.86%;
+            top: 21.67%;
+            bottom: 21.67%;
+
+            @media screen and(max-width:1024px){
+                width:210px;
+                height:34px;
+                display: flex;
+                flex-direction: row;
+                align-items: flex-start;
+                padding: 0px;
+                gap: 10px;
+                position: absolute;
+                left: 68.49%;
+                right: 4.17%;
+                top: 21.67%;
+                bottom: 21.67%;
+            }
+
+            @media screen and(max-width:768px){
+                left: 134px;
+                top: 13px;
+            }
+
+            
+
+
+        }
+
+    }
+}

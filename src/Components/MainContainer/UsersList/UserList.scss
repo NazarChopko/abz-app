@@ -1,0 +1,57 @@
+@import './User/User.scss';
+
+.users-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 50px;
+    width: 904px;
+    // height: 711px;
+    flex: none;
+    flex-grow: 0;
+
+    @media screen and(max-width:1024px){
+        width: 704px;
+    }
+    @media screen and(max-width:768px){
+        width: 328px;
+    }
+    
+
+    &__title{
+        width: 100%;
+        height: 40px;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.87);
+    }
+
+    &__list{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top:10px;
+        gap: 29px;
+
+        @media screen and(max-width:1024px){
+            justify-content: center;
+            gap:16px;
+        }
+
+        @media screen and(max-width:768px){
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap:20px;
+            margin-top:50px;
+        }
+        
+    }
+
+    &__button{
+        margin-top: -9px;
+    }
+}

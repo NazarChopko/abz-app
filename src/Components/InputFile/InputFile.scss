@@ -1,0 +1,39 @@
+.inputFileContainer{
+    width:100%;
+    height: 100%;
+    border-radius: 2px;
+
+    
+        .inputLabel{
+            width: 82px;
+            height: 100%;
+            font-size: 16px;
+            line-height: 26px;
+            font-weight: 400;
+            background-color: white;
+            border: 1px solid rgba(0, 0, 0, 0.87);
+            border-radius: 4px 0px 0px 4px;
+            
+
+        }
+
+        .inputText{
+            width: calc(380px - 82px);
+            height: 100%;
+            font-size: 16px;
+            line-height: 26px;
+            font-weight: 400;
+            padding-left: 18px;
+
+            @media screen and(max-width:768px){
+                width: calc(328px - 82px);
+            }
+            
+        }
+    
+
+    
+}
+
+
+

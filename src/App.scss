@@ -1,0 +1,28 @@
+@import './libs/variables.scss';
+@import './Components/Button/Buttton.scss';
+@import './Components/Preloader/Preloader.scss';
+@import './Components/Header/Header.scss';
+@import './Components//MainContainer/MainContainer.scss';
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+}
+
+.wrapper{
+  
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+
+  // .block-3{
+  //   display: flex;
+  //   order:3
+  // }
+  
+}
